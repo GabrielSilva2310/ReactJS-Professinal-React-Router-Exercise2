@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
-import ButtonPrimary from "../../../components/ButtonPrimary";
-import CardText from "../../../components/CardText";
+import CardText from "../../components/CardText";
+import ButtonPrimary from "../../components/ButtonPrimary";
 
-export default function HomeBody() {
+export default function Subscription() {
   return (
     <body>
       <main>
         <section>
           <div className="ex-container">
+          <h1 className="section-title">Faça sua inscrição!</h1>
             <div className="mt30 mb30">
-            <CardText text="Página inicial" />
+            <CardText text="Página de inscrição" />
             </div>
             <div className="dsflex">
             <Link to={'/promotion'}> <ButtonPrimary text="Ver Promoção" /> </Link>
